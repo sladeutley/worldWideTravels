@@ -1,1 +1,11 @@
-hello
+<h1>World Wide Travels</h1>
+<ul>
+    <li ng-repeat="guide in guidesList"> 
+        <!-- guide in "guide in guidesList" has to match, and "guidesList" has to be the same as in the controller (whats defined in the $scope.guidesList) - like a forEach -->
+        Book: {{guide.title}} <br>
+        Area Type of Guide: {{guide.type}} <br>
+        Price: {{guide.price}} <br> <br>
+    </li>
+</ul>
+
+<!-- </div>  -->
